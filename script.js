@@ -22,9 +22,11 @@ const coin ={
         const image = document.createElement("img")
         if(this.state===0){
             image.src = "./img/cara.jpg"
+            image.alt = "Heads"
         }
         if(this.state===1){
             image.src = "./img/coroa.jpg"
+            image.alt = "Tails"
         }
         return image
     }
