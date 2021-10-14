@@ -1,6 +1,20 @@
+
+div.moedas{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+}
 img{
-    width: 12vw;
-    height: 12vw;
+    width: 9vh;
+    height: 9vh;
     display: block;
     text-align: center;
+}
+@media (min-width: 768px) {
+    img{
+        width: 9vw;
+        height: 9vw;
+    }
 }
